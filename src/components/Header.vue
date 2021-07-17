@@ -100,6 +100,7 @@ export default {
         text-transform: uppercase;
         font-size: 12px;
         font-weight: 700;
+        transition: .3s all ease-in;
     }
     .login {
         margin-right: 10px!important;
@@ -126,7 +127,7 @@ export default {
     .burger-menu img {
         margin-right: 40px;
     }
-    @media(min-width:1024px) {
+    @media(min-width:1200px) {
         .nav-links-dk {
             display: flex!important;
         }
@@ -148,6 +149,21 @@ export default {
         }
         .logo-container img:first-child{
             max-width: 220px; 
+        }
+        .container-fluid {
+            padding: 15px 65px;
+        }
+        .login:hover {
+            background: #1aa7c3;
+            transition: .3s all ease-in;
+        }
+        .sign-up:hover {
+            background: #cc8910;
+            transition: .3s all ease-in;
+        }
+        .lower-voicedBy button:hover {
+            background:linear-gradient(0deg, rgba(47, 219, 217, 0.1), rgb(0 255 252 / 68%)), #FFFFFF;
+            transition: .3s all ease-in;
         }
     }
 </style>
