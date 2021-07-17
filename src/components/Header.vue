@@ -113,7 +113,7 @@ export default {
         margin-right: 32px;
     }
     .bm-burger-button {
-        position: fixed;
+        position: absolute;
         width: 20px!important;
         height: 12px!important;
         left: unset!important;
