@@ -71,8 +71,10 @@ export default {
         font-family: Montserrat;
         margin-left: 32px; 
         cursor: pointer;
+        font-weight: 600;
         text-transform: uppercase;
         font-size: 13px;
+        transition: .3s all ease-in;
     }
     .stores {
         margin-left: 32px;    
@@ -163,6 +165,10 @@ export default {
         }
         .lower-voicedBy button:hover {
             background:linear-gradient(0deg, rgba(47, 219, 217, 0.1), rgb(0 255 252 / 68%)), #FFFFFF;
+            transition: .3s all ease-in;
+        }
+        nav a:hover {
+            color: #0dcaf0!important;
             transition: .3s all ease-in;
         }
     }
