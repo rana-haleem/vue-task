@@ -30,6 +30,7 @@
         font-size: 12px;
         text-align: left;
         margin-left: 10px;
+        width: 100%;
     }
     .note-img {
         background: #fff;
